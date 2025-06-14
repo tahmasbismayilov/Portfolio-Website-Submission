@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahmasb Ismayilov - Creative Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <div class="page-wrapper">
+        <aside class="sidebar">
+            <div class="profile">
+                <div class="profile-img">
+                    <img src="https://source.unsplash.com/random/500x500/?portrait" alt="Tahmasb Ismayilov">
+                </div>
+                <h1>Tahmasb Ismayilov</h1>
+                <h2>Creative Designer</h2>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="#experience"><i class="fas fa-graduation-cap"></i> Experience</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2025 Tahmasb Ismayilov</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <section id="home" class="section active">
+                <div class="home-content">
+                    <h1>Hello, I'm <span class="highlight">Tahmasb Ismayilov</span></h1>
+                    <h2>I create <span class="txt-rotate" data-period="2000" data-rotate='[ "UI/UX Designs", "Brand Identities", "Digital Experiences", "Visual Stories" ]'></span></h2>
+                    <p>Based in London, UK. I'm passionate about creating beautiful and functional designs that solve real-world problems.</p>
+                    <div class="buttons">
+                        <a href="#portfolio" class="btn primary">View My Work</a>
+                        <a href="#contact" class="btn secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="shape-1"></div>
+                <div class="shape-2"></div>
+                <div class="shape-3"></div>
+            </section>
+
+            <section id="about" class="section">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <span class="section-line"></span>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a creative designer with over 7 years of experience specializing in UI/UX design, brand identity, and digital experiences. My design philosophy centers around creating meaningful connections between users and products.</p>
+                        <p>After graduating with a degree in Graphic Design from Central Saint Martins, I've worked with renowned brands and startups alike, helping them elevate their digital presence and create memorable experiences.</p>
+                        <p>When I'm not designing, you'll find me exploring photography, traveling to new places, or attending design workshops to constantly expand my creative horizons.</p>
+                    </div>
+                    
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-item">
+                            <span class="skill-name">UI/UX Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Brand Identity</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Web Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Illustration</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Motion Graphics</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tools">
+                        <h3>Tools I Use</h3>
+                        <div class="tools-grid">
+                            <div class="tool-item">Figma</div>
+                            <div class="tool-item">Adobe XD</div>
+                            <div class="tool-item">Photoshop</div>
+                            <div class="tool-item">Illustrator</div>
+                            <div class="tool-item">Sketch</div>
+                            <div class="tool-item">After Effects</div>
+                            <div class="tool-item">InVision</div>
+                            <div class="tool-item">Principle</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio" class="section">
+                <div class="section-header">
+                    <h2>My Portfolio</h2>
+                    <span class="section-line"></span>
+                </div>
+                
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ui">UI Design</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                    <button class="filter-btn" data-filter="illustration">Illustration</button>
+                </div>
+                
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="ui">
+                        <div class="portfolio-img">
+                            <img src="https://source.unsplash.com/random/600x450/?app" alt="Mobile App Design">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-info">
+                                    <h3>Mobile App Design</h3>
+                                    <p>UI Design / UX Research</p>
+                                    <a href="#" class="view-project">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="branding">
+                        <div class="portfolio-img">
+                            <img src="https://source.unsplash.com/random/600x450/?brand" alt="Brand Identity">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-info">
+                                    <h3>Eco Brand Identity</h3>
+                                    <p>Branding / Logo Design</p>
+                                    <a href="#" class="view-project">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="illustration">
+                        <div class="portfolio-img">
+                            <img src="https://source.unsplash.com/random/600x450/?illustration" alt="Illustration Series">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-info">
+                                    <h3>Character Illustrations</h3>
+                                    <p>Digital Art / Illustration</p>
+                                    <a href="#" class="view-project">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="ui">
+                        <div class="portfolio-img">
+                            <img src="https://source.unsplash.com/random/600x450/?website" alt="Website Redesign">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-info">
+                                    <h3>E-commerce Redesign</h3>
+                                    <p>UI Design / Web Development</p>
+                                    <a href="#" class="view-project">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="branding">
+                        <div class="portfolio-img">
+                            <img src="https://source.unsplash.com/random/600x450/?logo" alt="Logo Collection">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-info">
+                                    <h3>Minimalist Logo Collection</h3>
+                                    <p>Branding / Logo Design</p>
+                                    <a href="#" class="view-project">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="illustration">
+                        <div class="portfolio-img">
+                            <img src="https://source.unsplash.com/random/600x450/?art" alt="Digital Art">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-info">
+                                    <h3>Abstract Art Series</h3>
+                                    <p>Digital Art / Illustration</p>
+                                    <a href="#" class="view-project">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience" class="section">
+                <div class="section-header">
+                    <h2>Experience & Education</h2>
+                    <span class="section-line"></span>
+                </div>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Senior UI/UX Designer</h3>
+                            <span class="company">Creative Solutions Ltd</span>
+                            <span class="period">2022 - Present</span>
+                            <p>Lead the design team in creating user-centered digital experiences for various clients across different industries. Responsible for establishing design systems and ensuring consistent brand experiences.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>UI Designer</h3>
+                            <span class="company">Digital Innovations</span>
+                            <span class="period">2019 - 2022</span>
+                            <p>Designed user interfaces for web and mobile applications. Collaborated with UX researchers and developers to create intuitive and visually appealing digital products.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Junior Graphic Designer</h3>
+                            <span class="company">Design Studio X</span>
+                            <span class="period">2018 - 2019</span>
+                            <p>Assisted in creating visual assets for various branding projects. Worked on logo designs, marketing materials, and social media graphics for clients.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content education">
+                            <h3>Master's in UX Design</h3>
+                            <span class="company">London Design Academy</span>
+                            <span class="period">2016 - 2018</span>
+                            <p>Specialized in user experience design methodologies and practices. Thesis focused on enhancing accessibility in digital interfaces.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content education">
+                            <h3>Bachelor's in Graphic Design</h3>
+                            <span class="company">Central Saint Martins</span>
+                            <span class="period">2012 - 2016</span>
+                            <p>Studied various aspects of graphic design including typography, visual communication, brand identity, and digital design.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <div class="section-header">
+                    <h2>Get In Touch</h2>
+                    <span class="section-line"></span>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>London, United Kingdom</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>hello@Tahmasb@AOLCC.COM</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+44 123 456 7890</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-globe"></i>
+                            <div>
+                                <h3>Website</h3>
+                                <p>www.tahmasb.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
